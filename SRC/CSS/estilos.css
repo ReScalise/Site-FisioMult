@@ -1,180 +1,225 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family=Libre+Baskerville:wght@700&display=swap');
+
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  
-  body {
-    font-size: 100%;
-    background: linear-gradient(68.15deg, #89e4c5 16.62%, #138a84 85.61%);
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
-  .cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 80px;
-    background-image: url(../Imagens/fotolargacapafisiomultestreitaaaa.jpg);
-  }
-  
-  .cabecalho-imagem {
-    height: 72px;
-  }
-  
-  .cabecalho-menu {
-    display: flex;
-    gap: 32px;
-  }
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #89dfc2 16.62%, #189993 85.61%);
+ 
+}
+
+
+
+
+.cabecalho {
+background-image: url(../Imagens/cabecalho.jpg);
+
+}
+
 
 
 .cabecalho-menu {
-    display: flex;
-    gap: 35px;
-  }
-  
- 
-  .cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #083613;
-    font-weight: 400;
-    font-size: 25px
-  }
-
-
-  .conteudo {
-    margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2E7;
-  }
-  
-  .conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .conteudo-principal-escrito {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-  
-  .conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 30px;
-    color: #FFF2E7;
-  }
-  
-  .conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #ECD6C4;
-  }
-  
-  .conteudo-principal-escrito-botao {
-    background-color: #ECD6C4;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #2F2325;
-  }
-  
-  .conteudo-principal-escrito-botao:hover {
-    background-color: rgba(236, 214, 196, 0.53);
-  }
-  
-  
-  
-  .conteudo-secundario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-top: 48px;
-  }
-  
-  .conteudo-secundario-titulo {
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 30px;
-    color: #FFF2EF;
-    margin-bottom: 16px;
-  }
-  
-  .conteudo-secundario-paragrafo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #ECD6C4;
-    text-align: center;
-  }
-  
-  .conteudo-especialidades{
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 30px;
-    color: #FFF2EF;
-    margin-bottom: 16px;
-  }
- 
-  
-  
-h1 {
-    color:rgb(10, 59, 51);
-    background-color: rgb(30, 182, 162);
-}
-
-h2 {
-    color: rgb(8, 61, 54);
-    background-color: #138a84;
-  
-    
-
-}
-
-h3 {
-  text-align: center;
   display: flex;
-    flex-direction:inherit;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 23px;
-    
+  flex-direction: row;
+  color: #89e4c5;
+  align-items: center;
+  gap: 32px;
+  margin: 3px;
+  text-align: center;
 }
 
-p {
-    text-align: justify;
+
+.cabecalho-menu-item {
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  font-family: 'Sarala', sans-serif;
+  color: #e1eee4;
+  font-size: 25px;
 
 }
 
+
+
+.titulo-imagem {
+  color: rgb(8, 61, 54);  width: 100vw;
+  margin: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ecf1f1;
+
+}
+
+.imagem-cleide-foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+
+
+.lista-profissionais {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  font-size: 23px;
+  color: #e6f8f8; 
+  width: 70%;
+  
+
+  margin: auto;
+
+}
+
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.conteudo-principal-escrito-titulo {
+  background-color: #1a8b7c;
+  padding: 20px;
+  display: block;
+  flex-direction: column;
+  font-family: 'Righteous', cursive;
+  font-size: 45px;
+  color: #FFF2E7;
+
+}
+
+
+
+.conteudo-secundario {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  background-color: #24a897;
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  color: rgb(8, 61, 54);;
+ 
+  text-align: center;
+ 
+}
+
+.conteudo-secundario-paragrafo {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.conteudo-especialidades {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+}
+
+
+
+
+.nossas-especialidades {
+  margin: auto;
+
+
+}
+
+.nossas-especialidades-lista {
+  margin: auto;
+  width: 70%;
+  padding: 18px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.galeria-titulo {
+  color: rgb(8, 61, 54);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+
+}
+
+.galeria-titulo-fotos {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
 
 
 
 
 
 .horario-de-funcionamento {
-   flex-direction: column;
+  margin: auto;
+  font-size: 25px;
 
+}
+
+.lista-horario-de-funcionamento {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+  color: #e6f8f8;
+
+
+}
+
+.rodape-logo {
+  background-image: url(../Imagens/fisiomultfotolargacapasimplesatualizada.jpg);
+}
+
+h2 {
+  border-top: 0.4px solid #FFF2E7;
+  color: rgb(8, 61, 54);
+  background-color: #138a84;
+  width: 100vw;
+  text-align: center;
+  
+
+
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #19575f;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 28px;
+  font-style: italic;
+ 
 
 }
